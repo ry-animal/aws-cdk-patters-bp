@@ -1,0 +1,236 @@
+repo_name: ry-animal/aws-cdk-patters-bp
+report_id: 5e8550c70a7e49b61b610555956b786b
+repo_type: Public
+timestamp: '2023-11-09T16:42:32+00:00'
+requested_by: leegilmorecode
+provider: github
+branch: main
+detected_tools_count: 18
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: serverless-pro/package-lock.json
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: AWS Lambda
+  description: Automatically run code in response to modifications to objects in Amazon
+    S3 buckets, messages in Kinesis streams, or updates in DynamoDB
+  website_url: http://aws.amazon.com/lambda
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/1909/aws-lambda.png
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: "@types/aws-lambda"
+  description: TypeScript definitions for AWS Lambda
+  package_url: https://www.npmjs.com/@types/aws-lambda
+  version: 8.10.110
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17868/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: serverless-pro/package-lock.json
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: serverless-pro/package-lock.json
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.11.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: serverless-pro/package-lock.json
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: serverless-pro/package-lock.json
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: aws-sdk
+  description: AWS SDK for JavaScript
+  package_url: https://www.npmjs.com/aws-sdk
+  version: 2.1304.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: serverless-pro/package-lock.json
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.5.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: serverless-pro/package-lock.json
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 29.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: serverless-pro/package-lock.json
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: serverless-pro/package-lock.json
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: serverless-pro/package-lock.json
+  detection_source: serverless-pro/package.json
+  last_updated_by: Lee Gilmore
+  last_updated_on: 2023-02-09 18:16:50.000000000 Z
