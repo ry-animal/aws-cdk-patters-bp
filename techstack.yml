@@ -1,7 +1,8 @@
 repo_name: ry-animal/aws-cdk-patters-bp
 report_id: 5e8550c70a7e49b61b610555956b786b
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:42:32+00:00'
+timestamp: '2024-01-04T15:06:24+00:00'
 requested_by: leegilmorecode
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp
   detection_source: Repo Metadata
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -48,6 +52,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -59,6 +64,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp
   detection_source: Repo Metadata
 - name: Jest
   description: Painless JavaScript Unit Testing
@@ -70,7 +76,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: serverless-pro/package-lock.json
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package-lock.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -82,6 +88,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -94,6 +101,7 @@ tools:
   category: Application Hosting
   sub_category: Serverless / Task Processing
   image_url: https://img.stackshare.io/service/1909/aws-lambda.png
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -106,6 +114,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp
   detection_source: Repo Metadata
 - name: "@types/aws-lambda"
   description: TypeScript definitions for AWS Lambda
@@ -117,7 +126,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17868/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source_url: serverless-pro/package-lock.json
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package-lock.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -131,7 +140,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: serverless-pro/package-lock.json
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package-lock.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -145,7 +154,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: serverless-pro/package-lock.json
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package-lock.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -159,7 +168,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: serverless-pro/package-lock.json
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package-lock.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -173,7 +182,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: serverless-pro/package-lock.json
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package-lock.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -187,7 +196,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: serverless-pro/package-lock.json
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package-lock.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -202,7 +211,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: serverless-pro/package-lock.json
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package-lock.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -216,7 +225,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: serverless-pro/package-lock.json
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package-lock.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
@@ -230,7 +239,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: serverless-pro/package-lock.json
+  detection_source_url: https://github.com/ry-animal/aws-cdk-patters-bp/blob/main/serverless-pro/package-lock.json
   detection_source: serverless-pro/package.json
   last_updated_by: Lee Gilmore
   last_updated_on: 2023-02-09 18:16:50.000000000 Z
